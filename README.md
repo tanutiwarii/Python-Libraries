@@ -1,6 +1,6 @@
-# PyTorch Notebook Examples
+# PyTorch and OpenCV Notebook Examples
 
-This repository contains Jupyter notebooks demonstrating PyTorch basics and neural network concepts.
+This repository contains Jupyter notebooks demonstrating PyTorch basics, neural network concepts, and OpenCV image processing.
 
 ## Repository contents
 
@@ -11,11 +11,13 @@ This repository contains Jupyter notebooks demonstrating PyTorch basics and neur
   - tensor concatenation and reshaping
   - basic arithmetic operations
 
-- `2-Pytorch.ipynb` — A notebook focused on building neural networks in PyTorch.
+- `2-PyTorch.ipynb` — A notebook focused on building neural networks in PyTorch.
+
+- `3-OpenCV.ipynb` — A notebook demonstrating OpenCV image processing with NumPy and Matplotlib.
 
 ## Requirements
 
-The notebooks require Python, PyTorch, Jupyter, and an IPython kernel.
+The notebooks require Python, PyTorch, OpenCV, NumPy, Matplotlib, Jupyter, and an IPython kernel.
 
 ## Installation
 
@@ -32,16 +34,17 @@ The notebooks require Python, PyTorch, Jupyter, and an IPython kernel.
 
 ## Run the notebooks
 
-Start Jupyter and open either notebook:
+Start Jupyter and open the notebooks:
 
 ```bash
 jupyter notebook
 ```
 
-Then open `1-Tensors.ipynb` or `2-Pytorch.ipynb` and run the notebook cells.
+Then open `1-Tensors.ipynb`, `2-PyTorch.ipynb`, or `3-OpenCV.ipynb` and run the notebook cells.
 
 ## Notes
 
-- The notebooks use `torch` for PyTorch operations.
+- `1-Tensors.ipynb` and `2-PyTorch.ipynb` use `torch` for PyTorch operations.
+- `3-OpenCV.ipynb` uses `cv2`, `numpy`, and `matplotlib.pyplot` for image processing.
 - For GPU support, install a compatible PyTorch build for your system and CUDA version.
 - You can also open the notebooks in VS Code or another notebook editor.
