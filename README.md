@@ -1,19 +1,21 @@
-# Tensors in PyTorch
+# PyTorch Notebook Examples
 
-This repository contains a single Jupyter notebook demonstrating basic PyTorch tensor concepts and operations.
+This repository contains Jupyter notebooks demonstrating PyTorch basics and neural network concepts.
 
 ## Repository contents
 
-- `Tensors.ipynb` — A notebook that covers:
+- `1-Tensors.ipynb` — A notebook that covers:
   - tensor creation and initialization
   - tensor attributes (`dtype`, `device`, `layout`)
   - sparse tensor creation
   - tensor concatenation and reshaping
   - basic arithmetic operations
 
+- `2-Pytorch.ipynb` — A notebook focused on building neural networks in PyTorch.
+
 ## Requirements
 
-The notebook requires Python, PyTorch, and Jupyter.
+The notebooks require Python, PyTorch, Jupyter, and an IPython kernel.
 
 ## Installation
 
@@ -28,18 +30,18 @@ The notebook requires Python, PyTorch, and Jupyter.
    pip install -r requirements.txt
    ```
 
-## Run the notebook
+## Run the notebooks
 
-Start Jupyter and open the notebook:
+Start Jupyter and open either notebook:
 
 ```bash
-jupyter notebook Tensors.ipynb
+jupyter notebook
 ```
 
-Then run the notebook cells to explore tensor examples.
+Then open `1-Tensors.ipynb` or `2-Pytorch.ipynb` and run the notebook cells.
 
 ## Notes
 
-- The notebook uses `torch` for tensor operations.
+- The notebooks use `torch` for PyTorch operations.
 - For GPU support, install a compatible PyTorch build for your system and CUDA version.
-- If you do not use Jupyter, you can also open the notebook in VS Code or another notebook editor.
+- You can also open the notebooks in VS Code or another notebook editor.
